@@ -1,0 +1,30 @@
+{
+  "name": "vue3-typescript",
+  "version": "1.0.0",
+  "description": "first",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendy-web/vue3-typeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendy-web/vue3-typeScript/issues"
+  },
+  "homepage": "https://github.com/wendy-web/vue3-typeScript#readme",
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "vue": "^3.2.33",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.72.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
