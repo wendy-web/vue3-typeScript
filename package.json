@@ -19,6 +19,9 @@
   "homepage": "https://github.com/wendy-web/vue3-typeScript#readme",
   "dependencies": {
     "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
     "vue": "^3.2.33",
     "vue-loader": "^17.0.0",
     "vue-template-compiler": "^2.6.14",

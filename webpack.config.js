@@ -10,8 +10,27 @@ module.exports = {
     module: {
         rules: [
             {
-                test: '/.vue$/',
+                test: '/\.vue$/',
                 loader: 'vue-loader'
+            }, 
+            {
+                tets: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            },
+            {
+                test: /\.(gif|jpg|jpeg|svg)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            limit: 1024,
+                            name: '[name]-img.[ext]'
+                        }
+                    }
+                ]
             }
         ]
     }
